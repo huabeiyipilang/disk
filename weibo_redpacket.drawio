@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2020-07-12T03:07:34.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" version="13.4.1" etag="8sRxQvvqtvgCUUkSkJjL" type="github"><diagram id="NOSbslFX_Y2HoctifjmC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-12T03:36:46.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" etag="ZZ8yapCZiN3vdQdQlERe" version="13.4.1" type="github">
+  <diagram id="NOSbslFX_Y2HoctifjmC" name="Page-1">
+    <mxGraphModel dx="946" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-7" value="Client" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="67" y="54" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" source="BIDLNIUMeJ5ae6SM5kGC-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-12" value="Server" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="627" y="54" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="682" y="137" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-15" value="请求红包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" target="BIDLNIUMeJ5ae6SM5kGC-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="137" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-16" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" source="BIDLNIUMeJ5ae6SM5kGC-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="682" y="277" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-20" value="通知服务端领取红包，并请求下一个红包信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="277" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-21" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-22" value="" style="endArrow=classic;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="367" as="sourcePoint" />
+            <mxPoint x="404" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="682" y="499" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-24" value="通知服务端领取红包，并请求下一个红包信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="499" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-25" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
