@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-12T03:36:46.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" etag="ZZ8yapCZiN3vdQdQlERe" version="13.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-12T03:50:07.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" etag="xJ1PH2CPxyklIaqsrLHc" version="13.4.1" type="github">
   <diagram id="NOSbslFX_Y2HoctifjmC" name="Page-1">
     <mxGraphModel dx="946" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#000000" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="BIDLNIUMeJ5ae6SM5kGC-7" value="Client" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="67" y="54" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" source="BIDLNIUMeJ5ae6SM5kGC-7" parent="1">
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" source="BIDLNIUMeJ5ae6SM5kGC-40" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="127" y="616" as="targetPoint" />
           </mxGeometry>
@@ -60,10 +60,148 @@
             <mxPoint x="129" y="499" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-25" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-23">
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-25" value="红包任务达成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="131" y="548" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;strokeColor=#FFFFFF;fillColor=#ffffff;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="122" y="201" width="10" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-7" target="BIDLNIUMeJ5ae6SM5kGC-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="616" as="targetPoint" />
+            <mxPoint x="127" y="94" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-42" value="任务完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="137" y="221.5" width="54" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-59" value="Client" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="848" y="54" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-61" value="Server" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="54" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1468" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="114" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-64" value="请求红包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="907" y="114" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-65" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909" y="163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="245" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-67" value="请求下一个红包信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-68" value="返回红包信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="912" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-69" value="" style="endArrow=classic;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1185" y="316" as="sourcePoint" />
+            <mxPoint x="1185" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="382" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-71" value="点击领取红包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="382" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-72" value="领取结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="912" y="431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;strokeColor=#FFFFFF;fillColor=#ffffff;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="903" y="178" width="10" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-59" target="BIDLNIUMeJ5ae6SM5kGC-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908" y="616" as="targetPoint" />
+            <mxPoint x="908" y="94" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-75" value="任务完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="917" y="198.5" width="54" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-76" value="红包奖励暂存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1483" y="261" width="52" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-77" value="" style="endArrow=classic;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1185" y="444" as="sourcePoint" />
+            <mxPoint x="1185" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="510" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-79" value="请求下一个红包信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-80" value="任务达成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="912" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="597" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-85" value="点击领取红包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" target="BIDLNIUMeJ5ae6SM5kGC-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="597" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-86" value="领取结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="912" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;strokeColor=#FFFFFF;fillColor=#ffffff;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="903" y="671" width="10" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="BIDLNIUMeJ5ae6SM5kGC-73" target="BIDLNIUMeJ5ae6SM5kGC-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908" y="713" as="targetPoint" />
+            <mxPoint x="908" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-89" value="提示用户任务完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="920" y="673" width="101" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;strokeColor=#FFFFFF;fillColor=#ffffff;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="122" y="571" width="10" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="BIDLNIUMeJ5ae6SM5kGC-91" value="提示用户任务完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="139" y="573" width="101" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
