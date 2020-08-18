@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T12:33:30.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="TzZHXbnO4bb1fukYFuJZ" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T16:00:24.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="y-VVo-GoNDnYbw2-JNkg" version="13.4.4" type="github">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="Page-1">
-    <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,14 +195,32 @@
         <mxCell id="FD7otclthJIT6LNGtW_D-85" value="MultiMediaFreeTrafficHelper&lt;br&gt;新免流逻辑对外接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1540" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-91" value="WeiboImageDownloader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="900" width="120" height="60" as="geometry" />
+        <mxCell id="FD7otclthJIT6LNGtW_D-91" value="WeiboImageDownloader&lt;br&gt;图片免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-92" value="WeiboLogHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="1000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-93" value="WBPlayerSDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FD7otclthJIT6LNGtW_D-92" value="WeiboLogHelper&lt;br&gt;日志免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-93" value="WBPlayerSDK&lt;br&gt;播放器免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-94" target="FD7otclthJIT6LNGtW_D-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-94" value="WeiboHttpClient&lt;br&gt;旧版业务接口免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-95" value="UnicomVIP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-97" value="UploadkitComponents&lt;br&gt;上传免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-99" value="RequestParam&lt;br&gt;免流参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-100" value="免流三步：&lt;br&gt;1、CarrierCenter.isCarrierFreeType()&lt;br&gt;2、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyUrl&lt;br&gt;3、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyHeaders" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1140" width="430" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
