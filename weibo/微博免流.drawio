@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T03:52:22.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="cTkiR819kXL4qE_SZ7hS" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T06:37:59.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="Zs1619rqSBQ13GxvIM8A" version="13.4.4" type="github">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="Page-1">
-    <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,9 @@
           <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-8" target="FD7otclthJIT6LNGtW_D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-8" target="FD7otclthJIT6LNGtW_D-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-8" value="push/active" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -153,6 +156,9 @@
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-46" value="移动网络" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="1210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-50" value="更新免流配置&lt;br&gt;MultiMediaFreeTrafficHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
