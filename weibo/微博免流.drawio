@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T06:57:11.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="DPkwc4K7Sy6GPS2Renbh" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T12:33:30.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="TzZHXbnO4bb1fukYFuJZ" version="13.4.4" type="github">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="Page-1">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -157,8 +157,52 @@
         <mxCell id="FD7otclthJIT6LNGtW_D-46" value="移动网络" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="1210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-50" value="更新免流配置&lt;br&gt;MultiMediaFreeTrafficHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FD7otclthJIT6LNGtW_D-50" value="更新免流配置&lt;br&gt;FreeTrafficConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-76" value="FreeTrafficConfig&lt;br&gt;push/active接口下发，包含了联通vip，联通，电信，移动的免流配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="390" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-77" target="FD7otclthJIT6LNGtW_D-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-77" value="FreeTrafficConfigGroup&lt;br&gt;联调、电信、移动免流配置&lt;br&gt;包含video、image等配置，以及不支持免流的地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="505" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-78" target="FD7otclthJIT6LNGtW_D-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-78" value="FreeTrafficConfigItem&lt;br&gt;需要代理的地址，代理地址等。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="505" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-79" target="FD7otclthJIT6LNGtW_D-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-79" target="FD7otclthJIT6LNGtW_D-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-79" value="UnicomVip&lt;br&gt;包含联通vip代理服务器地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-83" value="UnicomCenter&lt;br&gt;unicomVIP对外接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-85" value="MultiMediaFreeTrafficHelper&lt;br&gt;新免流逻辑对外接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-91" value="WeiboImageDownloader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-92" value="WeiboLogHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FD7otclthJIT6LNGtW_D-93" value="WBPlayerSDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
