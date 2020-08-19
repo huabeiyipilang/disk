@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-19T07:05:36.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="MLZ1RtbUSR_ZzVtmcCOx" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-19T07:14:32.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="O3iUYPTv_DUfQpdc3Vs8" version="13.6.2" type="github">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="Page-1">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -186,67 +186,68 @@
         <mxCell id="FD7otclthJIT6LNGtW_D-91" value="WeiboImageDownloader&lt;br&gt;图片免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-92" target="VhMvJsWk_caTQHKzzRW5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-92" value="WeiboLogHelper&lt;br&gt;日志免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-93" value="WBPlayerSDK&lt;br&gt;播放器免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FD7otclthJIT6LNGtW_D-94" target="FD7otclthJIT6LNGtW_D-95" edge="1">
+        <mxCell id="FD7otclthJIT6LNGtW_D-96" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FD7otclthJIT6LNGtW_D-94" target="FD7otclthJIT6LNGtW_D-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-94" value="WeiboHttpClient&lt;br&gt;旧版业务接口免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-95" value="UnicomVIP" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="1710" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-97" value="UploadkitComponents&lt;br&gt;上传免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-99" target="VhMvJsWk_caTQHKzzRW5-2">
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-99" target="VhMvJsWk_caTQHKzzRW5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-99" value="RequestParam&lt;br&gt;免流参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-100" value="免流三步：&lt;br&gt;1、CarrierCenter.isCarrierFreeType()&lt;br&gt;2、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyUrl&lt;br&gt;3、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyHeaders" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1160" width="430" height="210" as="geometry" />
+          <mxGeometry x="2090" y="1200" width="430" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-2" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="910" width="120" height="60" as="geometry" />
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-2" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;CarrierCenter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getCarrierFreeType()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;免流类型参数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhMvJsWk_caTQHKzzRW5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480" y="1040" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-5" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1010" width="120" height="60" as="geometry" />
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-5" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;checkAndSetSimCardImgUrl&lt;br&gt;替换地址&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-7">
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480" y="1140" as="sourcePoint" />
+            <mxPoint x="1710" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-7" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-9">
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480" y="1250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhMvJsWk_caTQHKzzRW5-9" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1710" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-11">
+        <mxCell id="VhMvJsWk_caTQHKzzRW5-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VhMvJsWk_caTQHKzzRW5-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480" y="1350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhMvJsWk_caTQHKzzRW5-11" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1710" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
