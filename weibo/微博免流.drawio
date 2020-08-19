@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-19T07:17:26.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="8h7ldO73AmRf3nliRZY7" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-19T07:17:45.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="e1w5JJbvi2zqVlTEhh2v" version="13.6.2" type="github">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="Page-1">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -218,9 +218,6 @@
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-99" value="RequestParam&lt;br&gt;免流参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-100" value="免流三步：&lt;br&gt;1、CarrierCenter.isCarrierFreeType()&lt;br&gt;2、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyUrl&lt;br&gt;3、MultiMediaFreeTrafficHelper.getMultiMediaUnicomProxyHeaders" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="2090" y="1200" width="430" height="210" as="geometry" />
         </mxCell>
         <mxCell id="VhMvJsWk_caTQHKzzRW5-2" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;CarrierCenter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getCarrierFreeType()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;免流类型参数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1710" y="990" width="120" height="60" as="geometry" />
