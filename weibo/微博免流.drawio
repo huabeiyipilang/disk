@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T03:45:31.459Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="3yv8fsrbpBxPAox73cRM" version="13.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-20T04:47:07.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="2M2N1rNcZzncidkBGJ6c" version="13.6.3" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="1666" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -303,6 +303,12 @@
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-2" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
           <mxGeometry x="80" y="50" width="100" height="780" as="geometry" />
         </mxCell>
+        <mxCell id="Zx3ItGKa6gAKtKhe6P54-9" value="push/active" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-2" target="Zx3ItGKa6gAKtKhe6P54-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-5" value="mapi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
           <mxGeometry x="280" y="50" width="100" height="780" as="geometry" />
         </mxCell>
@@ -314,6 +320,30 @@
         </mxCell>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-8" value="运营商免流CDN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
           <mxGeometry x="880" y="50" width="100" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx3ItGKa6gAKtKhe6P54-10" value="当前网络运营商 &amp;amp; 免流配置" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4AFFT017c6pMfZP4k8h-0" value="请求当前免流状态" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="240" as="sourcePoint" />
+            <mxPoint x="210" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4AFFT017c6pMfZP4k8h-1" value="免流状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4AFFT017c6pMfZP4k8h-2" value="请求当前免流状态&lt;br&gt;carrier/info" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130.25" y="360" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
