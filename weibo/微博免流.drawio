@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T04:47:07.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="2M2N1rNcZzncidkBGJ6c" version="13.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-20T04:48:23.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="nKO_hxpxSl7bdf1lZyl2" version="13.6.3" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="1666" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -343,6 +343,15 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130.25" y="360" as="sourcePoint" />
             <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-0" value="免流信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1" source="Zx3ItGKa6gAKtKhe6P54-5" target="Zx3ItGKa6gAKtKhe6P54-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="250" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="400" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
