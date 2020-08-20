@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T12:13:31.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="a0NIZ-08VmAXcl3Zftd4" version="13.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-20T13:10:14.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="4tnrFtjUILGOuQOFZT6y" version="13.6.3" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="1011" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdd9Wxzh6zNCUxIPPa7Z" name="时序图">
-    <mxGraphModel dx="1398" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-0" />
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-1" parent="Zx3ItGKa6gAKtKhe6P54-0" />
@@ -435,6 +435,9 @@
             <mxPoint x="330.5" y="260" as="sourcePoint" />
             <mxPoint x="130" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S-02nD10D-d4bgHcmyhw-3" value="免流配置包含联通会员和免流卡的相关配置，具体见接口文档。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+          <mxGeometry x="-140" y="100" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
