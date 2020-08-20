@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T09:45:31.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="IlMjY1VfyOgrl839AHbH" version="13.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-20T09:58:33.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="vWT3PiHVjQUR261q-Yyp" version="13.6.3" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="1011" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdd9Wxzh6zNCUxIPPa7Z" name="时序图">
-    <mxGraphModel dx="1011" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-0" />
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-1" parent="Zx3ItGKa6gAKtKhe6P54-0" />
