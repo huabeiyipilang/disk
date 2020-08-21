@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T02:13:22.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="6Wd6qP0M2_HtHpz2Yo67" version="13.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-21T02:13:56.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="o7v_mOEl9Sh28tFyS9Jx" version="13.6.4" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
-    <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdd9Wxzh6zNCUxIPPa7Z" name="时序图">
-    <mxGraphModel dx="1852" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2386" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-0" />
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-1" parent="Zx3ItGKa6gAKtKhe6P54-0" />
@@ -429,25 +429,25 @@
         <mxCell id="S-02nD10D-d4bgHcmyhw-3" value="push/active接口，返回免流配置包含联通会员和免流卡的相关配置，具体见接口文档。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="360" y="130" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-0" value="carrier/get/info接口，返回当前网络运营商。网络状态发生变化的时候会请求，目前只有IOS端有此请求。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-0" value="carrier/get/info接口，返回当前网络运营商。网络状态发生变化的时候会请求，目前只有IOS端有此请求。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="360" y="220" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-1" value="电信：由客户端请求运营商服务器&lt;br&gt;联通：写死返回-1 不免流&lt;br&gt;移动：写死返回1 免流" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-1" value="电信：由客户端请求运营商服务器&lt;br&gt;联通：写死返回-1 不免流&lt;br&gt;移动：写死返回1 免流" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="550" y="300" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-3" value="客户端请求mapi，有服务端请求运营商，获取免流状态。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-3" value="客户端请求mapi，有服务端请求运营商，获取免流状态。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="550" y="420" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-4" value="通过免流配置，客户端通过替换域名的方式，直接访问免流CDN" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-4" value="通过免流配置，客户端通过替换域名的方式，直接访问免流CDN" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="960" y="676.25" width="150" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-5" value="请求当前免流状态&lt;br&gt;carrier/info" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-5" value="请求当前免流状态&lt;br&gt;carrier/info" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130.75" y="580" as="sourcePoint" />
             <mxPoint x="330.5" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-6" value="免流信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-6" value="免流信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="620" as="sourcePoint" />
             <mxPoint x="130" y="620" as="targetPoint" />
@@ -456,19 +456,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-7" value="&lt;span&gt;免流卡&lt;br&gt;（业务接口）&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-7" value="&lt;span&gt;免流卡&lt;br&gt;（业务接口）&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="5" y="570" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-8" value="在请求接口中，统一添加免流字段。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-8" value="在请求接口中，统一添加免流字段。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="360" y="570" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-9" value="客户端所有请求统一走免流服务器，再由服务器分发到免流CDN。联通直接根据客户端访问的地址进行免流。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-9" value="客户端所有请求统一走免流服务器，再由服务器分发到免流CDN。联通直接根据客户端访问的地址进行免流。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="960" y="804" width="150" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-10" value="客户度获取免流&lt;br&gt;配置和状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-10" value="客户度获取免流&lt;br&gt;配置和状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="-50" y="120" width="25" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-11" value="免流实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-11" value="免流实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="-50" y="525" width="25" height="365" as="geometry" />
         </mxCell>
       </root>
