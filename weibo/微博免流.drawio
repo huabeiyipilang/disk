@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T02:13:09.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="c6cucJaPwASQQk1tFiJ0" version="13.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-21T02:13:22.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="6Wd6qP0M2_HtHpz2Yo67" version="13.6.4" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdd9Wxzh6zNCUxIPPa7Z" name="时序图">
-    <mxGraphModel dx="2146" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1852" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-0" />
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-1" parent="Zx3ItGKa6gAKtKhe6P54-0" />
@@ -396,13 +396,13 @@
             <mxPoint x="129.5" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CND" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CND" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="814" as="sourcePoint" />
             <mxPoint x="925" y="814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-12" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-12" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="Zx3ItGKa6gAKtKhe6P54-1" source="Zx3ItGKa6gAKtKhe6P54-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="729.5" y="871" as="targetPoint" />
             <mxPoint x="925" y="871" as="sourcePoint" />
@@ -463,7 +463,7 @@
           <mxGeometry x="360" y="570" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMfTMdnMGLnC48BqI3dr-9" value="客户端所有请求统一走免流服务器，再由服务器分发到免流CDN。联通直接根据客户端访问的地址进行免流。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
-          <mxGeometry x="950" y="806" width="150" height="76" as="geometry" />
+          <mxGeometry x="960" y="804" width="150" height="76" as="geometry" />
         </mxCell>
         <mxCell id="BMfTMdnMGLnC48BqI3dr-10" value="客户度获取免流&lt;br&gt;配置和状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
           <mxGeometry x="-50" y="120" width="25" height="380" as="geometry" />
