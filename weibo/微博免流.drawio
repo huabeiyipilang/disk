@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T02:12:42.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="5SxT4dZQA-lBpiN8VIAN" version="13.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-21T02:13:09.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="c6cucJaPwASQQk1tFiJ0" version="13.6.4" type="github" pages="2">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -396,21 +396,17 @@
             <mxPoint x="129.5" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
-          <mxGeometry x="925" y="814" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CND" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Xfnc2JzhtMYeQJa7CxyX-10" edge="1">
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CND" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="814" as="sourcePoint" />
+            <mxPoint x="925" y="814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-12" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="Zx3ItGKa6gAKtKhe6P54-1" source="Xfnc2JzhtMYeQJa7CxyX-10" edge="1">
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-12" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="729.5" y="871" as="targetPoint" />
+            <mxPoint x="925" y="871" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-14" value="&lt;span&gt;根据中专服务器判断是否免流&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
-          <mxGeometry x="935" y="834" width="175" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Xfnc2JzhtMYeQJa7CxyX-15" value="&lt;span&gt;免流卡&lt;br&gt;（图片、视频、直播）&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="-20" y="684" width="130" height="20" as="geometry" />
@@ -467,7 +463,7 @@
           <mxGeometry x="360" y="570" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMfTMdnMGLnC48BqI3dr-9" value="客户端所有请求统一走免流服务器，再由服务器分发到免流CDN。联通直接根据客户端访问的地址进行免流。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
-          <mxGeometry x="950" y="874" width="150" height="76" as="geometry" />
+          <mxGeometry x="950" y="806" width="150" height="76" as="geometry" />
         </mxCell>
         <mxCell id="BMfTMdnMGLnC48BqI3dr-10" value="客户度获取免流&lt;br&gt;配置和状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zx3ItGKa6gAKtKhe6P54-1">
           <mxGeometry x="-50" y="120" width="25" height="380" as="geometry" />
