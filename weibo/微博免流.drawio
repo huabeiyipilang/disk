@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T08:06:50.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="3V7Tya87_PIkKmFzFo1f" version="13.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-21T08:07:32.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="TA18cA1pJvANm5RXuAC8" version="13.6.4" type="github" pages="3">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
     <mxGraphModel dx="1398" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -188,76 +188,6 @@
         <mxCell id="FD7otclthJIT6LNGtW_D-79" value="UnicomVip&lt;br&gt;包含联通vip代理服务器地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="605" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-91" value="WeiboImageDownloader&lt;br&gt;图片免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1090" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FD7otclthJIT6LNGtW_D-92" target="VhMvJsWk_caTQHKzzRW5-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-92" value="WeiboLogHelper&lt;br&gt;日志免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FD7otclthJIT6LNGtW_D-93" target="VhMvJsWk_caTQHKzzRW5-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-93" value="WBPlayerSDK&lt;br&gt;播放器免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-96" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FD7otclthJIT6LNGtW_D-94" target="FD7otclthJIT6LNGtW_D-95" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-94" value="WeiboHttpClient&lt;br&gt;旧版业务接口免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-95" value="UnicomVIP" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FD7otclthJIT6LNGtW_D-97" target="VhMvJsWk_caTQHKzzRW5-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-97" value="UploadkitComponents&lt;br&gt;上传免流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FD7otclthJIT6LNGtW_D-99" target="VhMvJsWk_caTQHKzzRW5-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FD7otclthJIT6LNGtW_D-99" value="RequestParam&lt;br&gt;免流参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-2" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;CarrierCenter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getCarrierFreeType()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;免流类型参数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="VhMvJsWk_caTQHKzzRW5-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="1030" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-5" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;checkAndSetSimCardImgUrl&lt;br&gt;替换地址&amp;amp;header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1090" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FD7otclthJIT6LNGtW_D-91" target="VhMvJsWk_caTQHKzzRW5-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="1140" as="sourcePoint" />
-            <mxPoint x="1710" y="1140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="VhMvJsWk_caTQHKzzRW5-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="1250" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-9" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyUrl&lt;br&gt;视频接口&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="VhMvJsWk_caTQHKzzRW5-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="1350" as="sourcePoint" />
-            <mxPoint x="1710" y="1350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VhMvJsWk_caTQHKzzRW5-13" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyHeaders&lt;br&gt;替换header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1220" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -436,6 +366,84 @@
         </mxCell>
         <mxCell id="BMfTMdnMGLnC48BqI3dr-11" value="免流实现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="-50" y="525" width="25" height="365" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dxQe6RQ59VyKmGhSH5cl" name="免流模块">
+    <mxGraphModel dx="198" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="RBBrFdm4qwBOUeEuhhhn-0" />
+        <mxCell id="RBBrFdm4qwBOUeEuhhhn-1" parent="RBBrFdm4qwBOUeEuhhhn-0" />
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-0" value="WeiboImageDownloader&lt;br&gt;图片免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-2" target="68yQm4vrExPjKiZ2PvLh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-2" value="WeiboLogHelper&lt;br&gt;日志免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-4" target="68yQm4vrExPjKiZ2PvLh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-4" value="WBPlayerSDK&lt;br&gt;播放器免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-6" target="68yQm4vrExPjKiZ2PvLh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-6" value="WeiboHttpClient&lt;br&gt;旧版业务接口免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-7" value="UnicomVIP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1710" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-9" target="68yQm4vrExPjKiZ2PvLh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-9" value="UploadkitComponents&lt;br&gt;上传免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-11" target="68yQm4vrExPjKiZ2PvLh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-11" value="RequestParam&lt;br&gt;免流参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;CarrierCenter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;getCarrierFreeType()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;免流类型参数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1710" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-14" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;checkAndSetSimCardImgUrl&lt;br&gt;替换地址&amp;amp;header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1710" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-0" target="68yQm4vrExPjKiZ2PvLh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1140" as="sourcePoint" />
+            <mxPoint x="1710" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-16" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-17" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyUrl&lt;br&gt;视频接口&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1710" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1350" as="sourcePoint" />
+            <mxPoint x="1710" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68yQm4vrExPjKiZ2PvLh-19" value="&lt;span style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyHeaders&lt;br&gt;替换header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          <mxGeometry x="1710" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
