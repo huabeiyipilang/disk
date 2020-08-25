@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T08:14:19.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="ELzFLcCg7VfigmkIcpyo" version="13.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-25T03:01:43.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="qPyspNdVF5AtLoXDlFz1" version="13.6.4" type="github" pages="3">
   <diagram id="5t_msXA3C3aUCK7MmMF7" name="客户端">
-    <mxGraphModel dx="1398" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
         <mxCell id="FD7otclthJIT6LNGtW_D-46" value="移动网络" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="1210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M2WQxrDhA5h37YQD7dsD-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="FD7otclthJIT6LNGtW_D-50" target="FD7otclthJIT6LNGtW_D-76">
+        <mxCell id="M2WQxrDhA5h37YQD7dsD-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="1" source="FD7otclthJIT6LNGtW_D-50" target="FD7otclthJIT6LNGtW_D-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FD7otclthJIT6LNGtW_D-50" value="更新免流配置&lt;br&gt;FreeTrafficConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wdd9Wxzh6zNCUxIPPa7Z" name="时序图">
-    <mxGraphModel dx="2598" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-0" />
         <mxCell id="Zx3ItGKa6gAKtKhe6P54-1" parent="Zx3ItGKa6gAKtKhe6P54-0" />
@@ -292,7 +292,7 @@
             <mxPoint x="129.5" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CND" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-8" edge="1">
+        <mxCell id="Xfnc2JzhtMYeQJa7CxyX-11" value="分发到免流CDN" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" target="Zx3ItGKa6gAKtKhe6P54-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="814" as="sourcePoint" />
             <mxPoint x="925" y="814" as="targetPoint" />
@@ -337,13 +337,13 @@
         <mxCell id="BMfTMdnMGLnC48BqI3dr-4" value="通过免流配置，客户端通过替换域名的方式，直接访问免流CDN" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;align=left;" parent="Zx3ItGKa6gAKtKhe6P54-1" vertex="1">
           <mxGeometry x="960" y="676.25" width="150" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-5" value="请求当前免流状态&lt;br&gt;carrier/info" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-5" value="接口请求" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130.75" y="580" as="sourcePoint" />
             <mxPoint x="330.5" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BMfTMdnMGLnC48BqI3dr-6" value="免流信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
+        <mxCell id="BMfTMdnMGLnC48BqI3dr-6" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="Zx3ItGKa6gAKtKhe6P54-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="620" as="sourcePoint" />
             <mxPoint x="130" y="620" as="targetPoint" />
@@ -371,96 +371,188 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dxQe6RQ59VyKmGhSH5cl" name="免流模块">
+    
     <mxGraphModel dx="-254" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="RBBrFdm4qwBOUeEuhhhn-0" />
+        
         <mxCell id="RBBrFdm4qwBOUeEuhhhn-1" parent="RBBrFdm4qwBOUeEuhhhn-0" />
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-0" value="WeiboImageDownloader&lt;br&gt;图片免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="1090" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-2" target="68yQm4vrExPjKiZ2PvLh-12">
+          
           <mxGeometry relative="1" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-2" value="WeiboLogHelper&lt;br&gt;日志免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="1000" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-4" target="68yQm4vrExPjKiZ2PvLh-19">
+          
           <mxGeometry relative="1" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-4" value="WBPlayerSDK&lt;br&gt;播放器免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="1220" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-6" target="68yQm4vrExPjKiZ2PvLh-7">
+          
           <mxGeometry relative="1" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-6" value="WeiboHttpClient&lt;br&gt;联通会员业务接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="810" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-7" value="替换域名" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1710" y="810" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-9" target="68yQm4vrExPjKiZ2PvLh-19">
+          
           <mxGeometry relative="1" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-9" value="UploadkitComponents&lt;br&gt;上传免流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="1320" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-11" target="68yQm4vrExPjKiZ2PvLh-12">
+          
           <mxGeometry relative="1" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-11" value="RequestParam&lt;br&gt;免流卡业务接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1360" y="910" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;免流类型参数&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1710" y="910" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-14">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="1480" y="1030" as="sourcePoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-14" value="&lt;span style=&quot;text-align: left&quot;&gt;替换地址&amp;amp;header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1710" y="1090" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" source="68yQm4vrExPjKiZ2PvLh-0" target="68yQm4vrExPjKiZ2PvLh-14">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="1480" y="1140" as="sourcePoint" />
+            
             <mxPoint x="1710" y="1140" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-16" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-17">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="1480" y="1250" as="sourcePoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-17" value="&lt;span style=&quot;text-align: left&quot;&gt;视频接口&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1710" y="1320" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RBBrFdm4qwBOUeEuhhhn-1" target="68yQm4vrExPjKiZ2PvLh-17">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="1480" y="1350" as="sourcePoint" />
+            
             <mxPoint x="1710" y="1350" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="68yQm4vrExPjKiZ2PvLh-19" value="&lt;span style=&quot;text-align: left&quot;&gt;替换header&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1710" y="1220" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="kEkCI56yb4XTMgC40Mdx-0" value="&lt;div style=&quot;text-align: left&quot;&gt;CarrierCenter.&lt;span&gt;getCarrierFreeType()&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1920" y="910" width="220" height="80" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="kEkCI56yb4XTMgC40Mdx-1" value="&lt;div style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper.&lt;br&gt;checkAndSetSimCardImgUrl&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1920" y="1080" width="220" height="80" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="kEkCI56yb4XTMgC40Mdx-2" value="&lt;div style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyHeaders&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1920" y="1210" width="220" height="80" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="kEkCI56yb4XTMgC40Mdx-3" value="&lt;div style=&quot;text-align: left&quot;&gt;MultiMediaFreeTrafficHelper&lt;br&gt;getMultiMediaUnicomProxyUrl&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1920" y="1320" width="220" height="80" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="kEkCI56yb4XTMgC40Mdx-5" value="&lt;div style=&quot;text-align: left&quot;&gt;UnicomVIP&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RBBrFdm4qwBOUeEuhhhn-1">
+          
           <mxGeometry x="1920" y="800" width="220" height="80" as="geometry" />
+          
         </mxCell>
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
 </mxfile>
